@@ -22,23 +22,29 @@ VTK的主要特点包括：
 ## 2、一个简单的VTK程序
 ```c++
 #include <vtkSmartPointer.h>
-#include <vtkSphereSource.h>
+#include <vtkRenderWindow.h>
+#include <vtkRenderer.h>
+#include <vtkRenderWindowInteractor.h>
 #include <vtkPolyDataMapper.h>
 #include <vtkActor.h>
-#include <vtkRenderer.h>
-#include <vtkRenderWindow.h>
-#include <vtkRenderWindowInteractor.h>
+#include <vtkCylinderSource.h>
+#include <vtkProperty.h>
+#include <vtkCamera.h>
+#include <vtkInteractorStyleTrackballCamera.h>
+
 
 int main()
 {
-    // 创建一个球体数据源
-    vtkSmartPointer<vtkSphereSource> sphereSource = vtkSmartPointer<vtkSphereSource>::New();
-    sphereSource->SetCenter(0, 0, 0);
-    sphereSource->SetRadius(5);
+    // 创建一个柱体数据源
+    vtkSmartPointer<vtkCylinderSource> cylinder = vtkSmartPointer<vtkCylinderSource>::New();
+    cylinder->SetHeight(3.0);
+    cylinder->SetRadius(1.0);
+    cylinder->SetResolution(10);//set 分辨率
+
 
     // 创建一个多边形数据映射器
     vtkSmartPointer<vtkPolyDataMapper> mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
-    mapper->SetInputConnection(sphereSource->GetOutputPort());
+    mapper->SetInputConnection(cylinder->GetOutputPort());
 
     // 创建一个演员
     vtkSmartPointer<vtkActor> actor = vtkSmartPointer<vtkActor>::New();
@@ -86,8 +92,9 @@ void SetAttenuation(double constant, double linear, double quadratic); //设置�
 void SetLightTypeToPositional(); //设置光源为点光源
 void SetLightTypeToDirectional(); //设置光源为平行光源
 ```
-示例见:ch02_2_RenderCylinder_light.cpp
-该示例定义了链哥哥vtkLight对象，一个为绿色光，位置在(0,0,1)，一个为蓝色光，位置在(0,0,1-1)焦点都对这相机的焦点。最后用vtkRenderer将灯光对象加载进渲染场景中。一个vtkRenderer可以有多个灯光。
+示例见:[ch02_2_RenderCylinder_light.cpp](ch02_2_RenderCylinder_light.cpp)
+
+该示例定义了链哥哥vtkLight对象，一个为绿色光，位置在(0,0,1)，一个为蓝色光，位置在(0,0,1-1)焦点都对这相机的焦点。最后用vtkRenderer将灯光对象加载进渲染场景中。一个vtkRenderer可以有多个灯光，因此使用的是vtkRenderer::AddLight()方法。
 
 ### 2.2.2 相机
 
