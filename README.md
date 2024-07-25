@@ -1,25 +1,25 @@
 # Learn VTK
-## 1ã€åˆè¯†VTK
-VTKæœ€åˆæ˜¯æ•™ç§‘ä¹¦The Visualization Toolkit An Object-Oriented Approach to 3D Graphicsçš„éƒ¨åˆ†ã€‚å¨å°”Â·æ–½ç½—å¾·ã€è‚¯Â·é©¬ä¸å’Œæ¯”å°”Â·æ´›ä¼¦æ£®â€”â€”ä¸‰åå›¾å½¢å’Œå¯è§†åŒ–ç ”ç©¶äººå‘˜â€”â€”ä»Ž1993å¹´12æœˆå¼€å§‹ï¼Œåœ¨ä»–ä»¬è‡ªå·±çš„æ—¶é—´ç¼–å†™äº†è¿™æœ¬ä¹¦å’Œé…å¥—è½¯ä»¶ï¼Œå¹¶å¾—åˆ°äº†ä»–ä»¬å½“æ—¶çš„é›‡ä¸»é€šç”¨ç”µæ°”ç ”å‘å…¬å¸çš„æ³•å¾‹è®¸å¯ã€‚è¿™æœ¬ä¹¦çš„åŠ¨æœºæ˜¯ä¸Žå…¶ä»–ç ”ç©¶äººå‘˜åˆä½œï¼Œå¼€å‘ä¸€ä¸ªå¼€æ”¾çš„æ¡†æž¶æ¥åˆ›å»ºå‰æ²¿çš„å¯è§†åŒ–å’Œå›¾å½¢åº”ç”¨ç¨‹åºã€‚
-VTKæºäºŽä½œè€…åœ¨é€šç”¨ç”µæ°”çš„ç»éªŒï¼Œç‰¹åˆ«æ˜¯LYMBé¢å‘å¯¹è±¡çš„å›¾å½¢ç³»ç»Ÿã€‚å…¶ä»–å½±å“åŒ…æ‹¬ç”±æ–½ç½—å¾·ç­‰äººå¼€å‘çš„è§†è§‰å¯è§†åŒ–ç³»ç»Ÿã€‚ä¼¦æ–¯å‹’ç†å·¥å­¦é™¢å¼€å‘çš„é¢å‘å¯¹è±¡çš„è®¡ç®—æœºåŠ¨ç”»ç³»ç»Ÿï¼›ä»¥åŠæ¯”å°”Â·æ´›ä¼¦æ£®åˆè‘—çš„é¢å‘å¯¹è±¡å»ºæ¨¡ä¸Žè®¾è®¡ä¹¦ã€‚
-åœ¨VTKçš„æ ¸å¿ƒè¢«ç¼–å†™å‡ºæ¥ä¹‹åŽï¼Œä¸–ç•Œå„åœ°çš„ç”¨æˆ·å’Œå¼€å‘äººå‘˜å¼€å§‹æ”¹è¿›ç³»ç»Ÿå¹¶å°†ç³»ç»Ÿåº”ç”¨äºŽçŽ°å®žä¸–ç•Œçš„é—®é¢˜ã€‚ç‰¹åˆ«æ˜¯ï¼Œé€šç”¨ç”µæ°”åŒ»ç–—ç³»ç»Ÿå…¬å¸å’Œå…¶ä»–é€šç”¨ç”µæ°”ä¸šåŠ¡å¯¹è¯¥ç³»ç»Ÿåšå‡ºäº†è´¡çŒ®ï¼Œä½©å¦®Â·èŽ±èŒµæ±‰æ–¯åšå£«ç­‰ç ”ç©¶äººå‘˜å¼€å§‹ç”¨è¿™æœ¬ä¹¦è¿›è¡Œæ•™å­¦ã€‚å…¶ä»–æ—©æœŸçš„æ”¯æŒè€…åŒ…æ‹¬æ´›æ–¯é˜¿æ‹‰èŽ«æ–¯å›½å®¶å®žéªŒå®¤çš„å‰å§†Â·é˜¿ä¼¦æ–¯å’Œæ…·æ…¨çš„çŸ³æ²¹å’Œå¤©ç„¶æ°”æ”¯æŒè€…ã€‚
-ä¸ºäº†åˆ›å»ºä¸€ä¸ªå¤§çš„ï¼Œæ´»è·ƒçš„ï¼Œå…¨çƒç¤¾åŒºï¼Œè‚¯å’Œå¨å°”è¿žåŒä¸½èŽŽé˜¿ç»´æ‹‰ï¼ŒæŸ¥å°”æ–¯æ³•å¾‹å’Œæ¯”å°”Â·éœå¤«æ›¼ç¦»å¼€é€šç”¨ç”µæ°”åœ¨1998å¹´åˆ›å»ºKitwareå…¬å¸.ä»Žé‚£æ—¶èµ·ï¼Œæˆç™¾ä¸Šåƒçš„é¢å¤–çš„å¼€å‘äººå‘˜æŠŠVTKå˜æˆçŽ°åœ¨ä¸–ç•Œä¸Šé¦–å±ˆä¸€æŒ‡çš„å¯è§†åŒ–ç³»ç»Ÿã€‚ä¾‹å¦‚ï¼ŒSandiaå›½å®¶å®žéªŒå®¤ä¸€ç›´æ˜¯ä¸€ä¸ªå¼ºæœ‰åŠ›çš„æ”¯æŒè€…å’Œå…±åŒå¼€å‘è€…ï¼Œä»–ä»¬æ”¹è¿›äº†VTKä¸­çš„2Då›¾è¡¨å’Œä¿¡æ¯å¯è§†åŒ–ã€‚
+## 1¡¢³õÊ¶VTK
+VTK×î³õÊÇ½Ì¿ÆÊéThe Visualization Toolkit An Object-Oriented Approach to 3D GraphicsµÄ²¿·Ö¡£Íþ¶û¡¤Ê©ÂÞµÂ¡¢¿Ï¡¤Âí¶¡ºÍ±È¶û¡¤ÂåÂ×É­¡ª¡ªÈýÃûÍ¼ÐÎºÍ¿ÉÊÓ»¯ÑÐ¾¿ÈËÔ±¡ª¡ª´Ó1993Äê12ÔÂ¿ªÊ¼£¬ÔÚËûÃÇ×Ô¼ºµÄÊ±¼ä±àÐ´ÁËÕâ±¾ÊéºÍÅäÌ×Èí¼þ£¬²¢µÃµ½ÁËËûÃÇµ±Ê±µÄ¹ÍÖ÷Í¨ÓÃµçÆøÑÐ·¢¹«Ë¾µÄ·¨ÂÉÐí¿É¡£Õâ±¾ÊéµÄ¶¯»úÊÇÓëÆäËûÑÐ¾¿ÈËÔ±ºÏ×÷£¬¿ª·¢Ò»¸ö¿ª·ÅµÄ¿ò¼ÜÀ´´´½¨Ç°ÑØµÄ¿ÉÊÓ»¯ºÍÍ¼ÐÎÓ¦ÓÃ³ÌÐò¡£
+VTKÔ´ÓÚ×÷ÕßÔÚÍ¨ÓÃµçÆøµÄ¾­Ñé£¬ÌØ±ðÊÇLYMBÃæÏò¶ÔÏóµÄÍ¼ÐÎÏµÍ³¡£ÆäËûÓ°Ïì°üÀ¨ÓÉÊ©ÂÞµÂµÈÈË¿ª·¢µÄÊÓ¾õ¿ÉÊÓ»¯ÏµÍ³¡£Â×Ë¹ÀÕÀí¹¤Ñ§Ôº¿ª·¢µÄÃæÏò¶ÔÏóµÄ¼ÆËã»ú¶¯»­ÏµÍ³£»ÒÔ¼°±È¶û¡¤ÂåÂ×É­ºÏÖøµÄÃæÏò¶ÔÏó½¨Ä£ÓëÉè¼ÆÊé¡£
+ÔÚVTKµÄºËÐÄ±»±àÐ´³öÀ´Ö®ºó£¬ÊÀ½ç¸÷µØµÄÓÃ»§ºÍ¿ª·¢ÈËÔ±¿ªÊ¼¸Ä½øÏµÍ³²¢½«ÏµÍ³Ó¦ÓÃÓÚÏÖÊµÊÀ½çµÄÎÊÌâ¡£ÌØ±ðÊÇ£¬Í¨ÓÃµçÆøÒ½ÁÆÏµÍ³¹«Ë¾ºÍÆäËûÍ¨ÓÃµçÆøÒµÎñ¶Ô¸ÃÏµÍ³×ö³öÁË¹±Ï×£¬ÅåÄÝ¡¤À³ÒðººË¹²©Ê¿µÈÑÐ¾¿ÈËÔ±¿ªÊ¼ÓÃÕâ±¾Êé½øÐÐ½ÌÑ§¡£ÆäËûÔçÆÚµÄÖ§³ÖÕß°üÀ¨ÂåË¹°¢À­ÄªË¹¹ú¼ÒÊµÑéÊÒµÄ¼ªÄ·¡¤°¢Â×Ë¹ºÍ¿¶¿®µÄÊ¯ÓÍºÍÌìÈ»ÆøÖ§³ÖÕß¡£
+ÎªÁË´´½¨Ò»¸ö´óµÄ£¬»îÔ¾µÄ£¬È«ÇòÉçÇø£¬¿ÏºÍÍþ¶ûÁ¬Í¬ÀöÉ¯°¢Î¬À­£¬²é¶ûË¹·¨ÂÉºÍ±È¶û¡¤»ô·òÂüÀë¿ªÍ¨ÓÃµçÆøÔÚ1998Äê´´½¨Kitware¹«Ë¾.´ÓÄÇÊ±Æð£¬³É°ÙÉÏÇ§µÄ¶îÍâµÄ¿ª·¢ÈËÔ±°ÑVTK±ä³ÉÏÖÔÚÊÀ½çÉÏÊ×ÇüÒ»Ö¸µÄ¿ÉÊÓ»¯ÏµÍ³¡£ÀýÈç£¬Sandia¹ú¼ÒÊµÑéÊÒÒ»Ö±ÊÇÒ»¸öÇ¿ÓÐÁ¦µÄÖ§³ÖÕßºÍ¹²Í¬¿ª·¢Õß£¬ËûÃÇ¸Ä½øÁËVTKÖÐµÄ2DÍ¼±íºÍÐÅÏ¢¿ÉÊÓ»¯¡£
 
 
-VTKçš„ä¸»è¦ç‰¹ç‚¹åŒ…æ‹¬ï¼š
+VTKµÄÖ÷ÒªÌØµã°üÀ¨£º
 
-- è·¨å¹³å°ï¼šVTKå¯ä»¥åœ¨å¤šç§æ“ä½œç³»ç»Ÿä¸Šè¿è¡Œï¼ŒåŒ…æ‹¬Windowsã€Linuxã€Mac OS Xç­‰ã€‚
-- å¼€æºï¼šVTKæ˜¯å¼€æºè½¯ä»¶ï¼Œå¯ä»¥è‡ªç”±åœ°ä½¿ç”¨ã€ä¿®æ”¹å’Œåˆ†å‘ã€‚
-- ä¸°å¯Œçš„åŠŸèƒ½ï¼šVTKæä¾›äº†ä¸°å¯Œçš„åŠŸèƒ½ï¼ŒåŒ…æ‹¬æ•°æ®è¯»å–ã€æ•°æ®è½¬æ¢ã€æ•°æ®å¯è§†åŒ–ã€å›¾åƒå¤„ç†ç­‰ã€‚
-- å¼ºå¤§çš„ç¤¾åŒºæ”¯æŒï¼šVTKæœ‰ä¸€ä¸ªæ´»è·ƒçš„ç¤¾åŒºï¼Œæä¾›äº†å¤§é‡çš„æ–‡æ¡£ã€æ•™ç¨‹å’Œç¤ºä¾‹ä»£ç ï¼Œå¯ä»¥å¸®åŠ©ç”¨æˆ·å¿«é€Ÿä¸Šæ‰‹å’Œä½¿ç”¨VTKã€‚
-- æ˜“äºŽæ‰©å±•ï¼šVTKçš„è®¾è®¡ä½¿å¾—ç”¨æˆ·å¯ä»¥å¾ˆå®¹æ˜“åœ°æ·»åŠ æ–°çš„åŠŸèƒ½æˆ–æ¨¡å—ã€‚
-- é«˜æ€§èƒ½ï¼šVTKä½¿ç”¨äº†é«˜æ•ˆçš„ç®—æ³•å’Œæ•°æ®ç»“æž„ï¼Œå¯ä»¥å¤„ç†å¤§è§„æ¨¡çš„æ•°æ®å’Œå¤æ‚çš„è®¡ç®—ã€‚
-- æ”¯æŒå¤šç§ç¼–ç¨‹è¯­è¨€ï¼šVTKæä¾›äº†C++ã€Pythonã€Javaã€Tclç­‰è¯­è¨€çš„æŽ¥å£ï¼Œç”¨æˆ·å¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€æ±‚é€‰æ‹©åˆé€‚çš„ç¼–ç¨‹è¯­è¨€ã€‚
-- æ”¯æŒå¤šç§æ•°æ®æ ¼å¼ï¼šVTKæ”¯æŒå¤šç§æ•°æ®æ ¼å¼ï¼ŒåŒ…æ‹¬VTKã€STLã€OBJã€PNGã€JPEGç­‰ï¼Œå¯ä»¥æ–¹ä¾¿åœ°è¯»å–å’Œä¿å­˜å„ç§ç±»åž‹çš„æ•°æ®ã€‚
-- æ”¯æŒå¤šç§å¯è§†åŒ–æŠ€æœ¯ï¼šVTKæä¾›äº†å¤šç§å¯è§†åŒ–æŠ€æœ¯ï¼ŒåŒ…æ‹¬ä½“ç»˜åˆ¶ã€è¡¨é¢ç»˜åˆ¶ã€åˆ‡ç‰‡ã€ç‚¹äº‘ç»˜åˆ¶ç­‰ï¼Œå¯ä»¥æ»¡è¶³å„ç§å¯è§†åŒ–éœ€æ±‚ã€‚
-- æ”¯æŒå¤šç§äº¤äº’æ–¹å¼ï¼šVTKæä¾›äº†å¤šç§äº¤äº’æ–¹å¼ï¼ŒåŒ…æ‹¬é¼ æ ‡ã€é”®ç›˜ã€è§¦æ‘¸å±ç­‰ï¼Œå¯ä»¥æ–¹ä¾¿åœ°ä¸Žç”¨æˆ·è¿›è¡Œäº¤äº’ã€‚
+- ¿çÆ½Ì¨£ºVTK¿ÉÒÔÔÚ¶àÖÖ²Ù×÷ÏµÍ³ÉÏÔËÐÐ£¬°üÀ¨Windows¡¢Linux¡¢Mac OS XµÈ¡£
+- ¿ªÔ´£ºVTKÊÇ¿ªÔ´Èí¼þ£¬¿ÉÒÔ×ÔÓÉµØÊ¹ÓÃ¡¢ÐÞ¸ÄºÍ·Ö·¢¡£
+- ·á¸»µÄ¹¦ÄÜ£ºVTKÌá¹©ÁË·á¸»µÄ¹¦ÄÜ£¬°üÀ¨Êý¾Ý¶ÁÈ¡¡¢Êý¾Ý×ª»»¡¢Êý¾Ý¿ÉÊÓ»¯¡¢Í¼Ïñ´¦ÀíµÈ¡£
+- Ç¿´óµÄÉçÇøÖ§³Ö£ºVTKÓÐÒ»¸ö»îÔ¾µÄÉçÇø£¬Ìá¹©ÁË´óÁ¿µÄÎÄµµ¡¢½Ì³ÌºÍÊ¾Àý´úÂë£¬¿ÉÒÔ°ïÖúÓÃ»§¿ìËÙÉÏÊÖºÍÊ¹ÓÃVTK¡£
+- Ò×ÓÚÀ©Õ¹£ºVTKµÄÉè¼ÆÊ¹µÃÓÃ»§¿ÉÒÔºÜÈÝÒ×µØÌí¼ÓÐÂµÄ¹¦ÄÜ»òÄ£¿é¡£
+- ¸ßÐÔÄÜ£ºVTKÊ¹ÓÃÁË¸ßÐ§µÄËã·¨ºÍÊý¾Ý½á¹¹£¬¿ÉÒÔ´¦Àí´ó¹æÄ£µÄÊý¾ÝºÍ¸´ÔÓµÄ¼ÆËã¡£
+- Ö§³Ö¶àÖÖ±à³ÌÓïÑÔ£ºVTKÌá¹©ÁËC++¡¢Python¡¢Java¡¢TclµÈÓïÑÔµÄ½Ó¿Ú£¬ÓÃ»§¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÇóÑ¡ÔñºÏÊÊµÄ±à³ÌÓïÑÔ¡£
+- Ö§³Ö¶àÖÖÊý¾Ý¸ñÊ½£ºVTKÖ§³Ö¶àÖÖÊý¾Ý¸ñÊ½£¬°üÀ¨VTK¡¢STL¡¢OBJ¡¢PNG¡¢JPEGµÈ£¬¿ÉÒÔ·½±ãµØ¶ÁÈ¡ºÍ±£´æ¸÷ÖÖÀàÐÍµÄÊý¾Ý¡£
+- Ö§³Ö¶àÖÖ¿ÉÊÓ»¯¼¼Êõ£ºVTKÌá¹©ÁË¶àÖÖ¿ÉÊÓ»¯¼¼Êõ£¬°üÀ¨Ìå»æÖÆ¡¢±íÃæ»æÖÆ¡¢ÇÐÆ¬¡¢µãÔÆ»æÖÆµÈ£¬¿ÉÒÔÂú×ã¸÷ÖÖ¿ÉÊÓ»¯ÐèÇó¡£
+- Ö§³Ö¶àÖÖ½»»¥·½Ê½£ºVTKÌá¹©ÁË¶àÖÖ½»»¥·½Ê½£¬°üÀ¨Êó±ê¡¢¼üÅÌ¡¢´¥ÃþÆÁµÈ£¬¿ÉÒÔ·½±ãµØÓëÓÃ»§½øÐÐ½»»¥¡£
 
-## 2ã€ä¸€ä¸ªç®€å•çš„VTKç¨‹åº
+## 2¡¢Ò»¸ö¼òµ¥µÄVTK³ÌÐò
 ```c++
 #include <vtkSmartPointer.h>
 #include <vtkRenderWindow.h>
@@ -35,71 +35,200 @@ VTKçš„ä¸»è¦ç‰¹ç‚¹åŒ…æ‹¬ï¼š
 
 int main()
 {
-    // åˆ›å»ºä¸€ä¸ªæŸ±ä½“æ•°æ®æº
+    // ´´½¨Ò»¸öÖùÌåÊý¾ÝÔ´
     vtkSmartPointer<vtkCylinderSource> cylinder = vtkSmartPointer<vtkCylinderSource>::New();
     cylinder->SetHeight(3.0);
     cylinder->SetRadius(1.0);
-    cylinder->SetResolution(10);//set åˆ†è¾¨çŽ‡
+    cylinder->SetResolution(10);//set ·Ö±æÂÊ
 
 
-    // åˆ›å»ºä¸€ä¸ªå¤šè¾¹å½¢æ•°æ®æ˜ å°„å™¨
+    // ´´½¨Ò»¸ö¶à±ßÐÎÊý¾ÝÓ³ÉäÆ÷
     vtkSmartPointer<vtkPolyDataMapper> mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
     mapper->SetInputConnection(cylinder->GetOutputPort());
 
-    // åˆ›å»ºä¸€ä¸ªæ¼”å‘˜
+    // ´´½¨Ò»¸öÑÝÔ±
     vtkSmartPointer<vtkActor> actor = vtkSmartPointer<vtkActor>::New();
     actor->SetMapper(mapper);
 
-    // åˆ›å»ºä¸€ä¸ªæ¸²æŸ“å™¨
+    // ´´½¨Ò»¸öäÖÈ¾Æ÷
     vtkSmartPointer<vtkRenderer> renderer = vtkSmartPointer<vtkRenderer>::New();
     renderer->AddActor(actor);
 
-    // åˆ›å»ºä¸€ä¸ªæ¸²æŸ“çª—å£
+    // ´´½¨Ò»¸öäÖÈ¾´°¿Ú
     vtkSmartPointer<vtkRenderWindow> renderWindow = vtkSmartPointer<vtkRenderWindow>::New();
     renderWindow->AddRenderer(renderer);
 
-    // åˆ›å»ºä¸€ä¸ªæ¸²æŸ“çª—å£äº¤äº’å™¨
+    // ´´½¨Ò»¸öäÖÈ¾´°¿Ú½»»¥Æ÷
     vtkSmartPointer<vtkRenderWindowInteractor> interactor = vtkSmartPointer<vtkRenderWindowInteractor>::New();
     interactor->SetRenderWindow(renderWindow);
 
-    // å¯åŠ¨æ¸²æŸ“çª—å£äº¤äº’å™¨
+    // Æô¶¯äÖÈ¾´°¿Ú½»»¥Æ÷
     interactor->Initialize();
     interactor->Start();
 
     return 0;
 }
 ```
-è¿™ä¸ªç¨‹åºåˆ›å»ºäº†ä¸€ä¸ªçƒä½“ï¼Œå¹¶å°†å…¶æ˜¾ç¤ºåœ¨ä¸€ä¸ªæ¸²æŸ“çª—å£ä¸­ã€‚ç¨‹åºé¦–å…ˆåˆ›å»ºäº†ä¸€ä¸ªçƒä½“æ•°æ®æºï¼Œç„¶åŽåˆ›å»ºäº†ä¸€ä¸ªå¤šè¾¹å½¢æ•°æ®æ˜ å°„å™¨ï¼Œå°†çƒä½“æ•°æ®æºè¿žæŽ¥åˆ°æ˜ å°„å™¨ä¸­ã€‚æŽ¥ç€åˆ›å»ºäº†ä¸€ä¸ªæ¼”å‘˜ï¼Œå°†æ˜ å°„å™¨è¿žæŽ¥åˆ°æ¼”å‘˜ä¸­ã€‚ç„¶åŽåˆ›å»ºäº†ä¸€ä¸ªæ¸²æŸ“å™¨ï¼Œå°†æ¼”å‘˜æ·»åŠ åˆ°æ¸²æŸ“å™¨ä¸­ã€‚æŽ¥ç€åˆ›å»ºäº†ä¸€ä¸ªæ¸²æŸ“çª—å£ï¼Œå°†æ¸²æŸ“å™¨æ·»åŠ åˆ°æ¸²æŸ“çª—å£ä¸­ã€‚æœ€åŽåˆ›å»ºäº†ä¸€ä¸ªæ¸²æŸ“çª—å£äº¤äº’å™¨ï¼Œå°†æ¸²æŸ“çª—å£è¿žæŽ¥åˆ°äº¤äº’å™¨ä¸­ï¼Œå¹¶å¯åŠ¨äº¤äº’å™¨ã€‚
+Õâ¸ö³ÌÐò´´½¨ÁËÒ»¸öÇòÌå£¬²¢½«ÆäÏÔÊ¾ÔÚÒ»¸öäÖÈ¾´°¿ÚÖÐ¡£³ÌÐòÊ×ÏÈ´´½¨ÁËÒ»¸öÇòÌåÊý¾ÝÔ´£¬È»ºó´´½¨ÁËÒ»¸ö¶à±ßÐÎÊý¾ÝÓ³ÉäÆ÷£¬½«ÇòÌåÊý¾ÝÔ´Á¬½Óµ½Ó³ÉäÆ÷ÖÐ¡£½Ó×Å´´½¨ÁËÒ»¸öÑÝÔ±£¬½«Ó³ÉäÆ÷Á¬½Óµ½ÑÝÔ±ÖÐ¡£È»ºó´´½¨ÁËÒ»¸öäÖÈ¾Æ÷£¬½«ÑÝÔ±Ìí¼Óµ½äÖÈ¾Æ÷ÖÐ¡£½Ó×Å´´½¨ÁËÒ»¸öäÖÈ¾´°¿Ú£¬½«äÖÈ¾Æ÷Ìí¼Óµ½äÖÈ¾´°¿ÚÖÐ¡£×îºó´´½¨ÁËÒ»¸öäÖÈ¾´°¿Ú½»»¥Æ÷£¬½«äÖÈ¾´°¿ÚÁ¬½Óµ½½»»¥Æ÷ÖÐ£¬²¢Æô¶¯½»»¥Æ÷¡£
 
-vtkActorç±»è¡¨ç¤ºä¸€ä¸ªå¯ä»¥æ¸²æŸ“çš„ç‰©ä½“ï¼ŒvtkPolyDataMapperç±»å°†æ•°æ®æºè½¬æ¢ä¸ºå¯ä»¥æ¸²æŸ“çš„æ ¼å¼ï¼ŒvtkRendererç±»è¡¨ç¤ºä¸€ä¸ªæ¸²æŸ“åœºæ™¯ï¼ŒvtkRenderWindowç±»è¡¨ç¤ºä¸€ä¸ªæ¸²æŸ“çª—å£ï¼ŒvtkRenderWindowInteractorç±»è¡¨ç¤ºä¸€ä¸ªæ¸²æŸ“çª—å£äº¤äº’å™¨ã€‚
-vtkActoræ´¾ç”Ÿè‡ªvtkPropç±»ï¼Œæ¸²æŸ“åœºæ™¯ä¸­æ•°æ®çš„å¯è§†åŒ–é€šè¿‡vtkPropç±»å®žçŽ°ï¼ŒvtkPropç±»æ´¾ç”Ÿè‡ªvtkObjectç±»ï¼ŒvtkObjectç±»æ˜¯VTKä¸­æ‰€æœ‰ç±»çš„åŸºç±»ã€‚å¦‚è‹¥è¦é€‰è½¯ä¸€ä¸ªæŸ±ä½“ï¼ŒæŸ±ä½“çš„æ•°æ®æ˜¯vtkPolyDataï¼Œæ•°æ®è¦åœ¨åœºæ™¯ä¸­æ¸²æŸ“æ—¶ï¼Œä¸æ˜¯ç›´æŽ¥å°†è¯¥æ•°æ®åŠ å…¥æ¸²æŸ“åœºæ™¯ï¼Œè€Œæ˜¯ä»¥vtkPropçš„å½¢å¼å­˜åœ¨äºŽæ¸²æŸ“åœºæ™¯ä¸­ï¼Œä¸‰ç»´ä¸­æœ€å¸¸ç”¨çš„vtkPropå­ç±»æœ‰vtkActor(å‡ ä½•æ•°æ®)å’ŒvtkVolume(ä½“æ•°æ®)ã€‚vtkPropçš„å­ç±»è´Ÿè´£ç¡®å®šæ¸²æŸ“åœºæ™¯ä¸­çš„ä½ç½®ã€å¤§å°ã€æ–¹å‘ç­‰ä¿¡æ¯ï¼Œpropä¾èµ–äºŽä¸¤ä¸ªå¯¹è±¡ï¼Œä¸€ä¸ªæ˜¯Mapperï¼Œå¦ä¸€ä¸ªæ˜¯Propertyã€‚Mapperè´Ÿè´£å°†æ•°æ®è½¬æ¢ä¸ºå¯ä»¥æ¸²æŸ“çš„æ ¼å¼ï¼Œå­˜æ”¾æ•°æ®å’Œæ¸²æŸ“ä¿¡æ¯ï¼ŒPropertyè´Ÿè´£ç¡®å®šæ¸²æŸ“åœºæ™¯ä¸­çš„é¢œè‰²ã€æè´¨ã€å…‰ç…§ç­‰ä¿¡æ¯ã€‚Mapperæ˜¯å¯è§†åŒ–ç®¡çº¿çš„æœ«ç«¯ã€‚
+vtkActorÀà±íÊ¾Ò»¸ö¿ÉÒÔäÖÈ¾µÄÎïÌå£¬vtkPolyDataMapperÀà½«Êý¾ÝÔ´×ª»»Îª¿ÉÒÔäÖÈ¾µÄ¸ñÊ½£¬vtkRendererÀà±íÊ¾Ò»¸öäÖÈ¾³¡¾°£¬vtkRenderWindowÀà±íÊ¾Ò»¸öäÖÈ¾´°¿Ú£¬vtkRenderWindowInteractorÀà±íÊ¾Ò»¸öäÖÈ¾´°¿Ú½»»¥Æ÷¡£
+vtkActorÅÉÉú×ÔvtkPropÀà£¬äÖÈ¾³¡¾°ÖÐÊý¾ÝµÄ¿ÉÊÓ»¯Í¨¹ývtkPropÀàÊµÏÖ£¬vtkPropÀàÅÉÉú×ÔvtkObjectÀà£¬vtkObjectÀàÊÇVTKÖÐËùÓÐÀàµÄ»ùÀà¡£ÈçÈôÒªÑ¡ÈíÒ»¸öÖùÌå£¬ÖùÌåµÄÊý¾ÝÊÇvtkPolyData£¬Êý¾ÝÒªÔÚ³¡¾°ÖÐäÖÈ¾Ê±£¬²»ÊÇÖ±½Ó½«¸ÃÊý¾Ý¼ÓÈëäÖÈ¾³¡¾°£¬¶øÊÇÒÔvtkPropµÄÐÎÊ½´æÔÚÓÚäÖÈ¾³¡¾°ÖÐ£¬ÈýÎ¬ÖÐ×î³£ÓÃµÄvtkProp×ÓÀàÓÐvtkActor(¼¸ºÎÊý¾Ý)ºÍvtkVolume(ÌåÊý¾Ý)¡£vtkPropµÄ×ÓÀà¸ºÔðÈ·¶¨äÖÈ¾³¡¾°ÖÐµÄÎ»ÖÃ¡¢´óÐ¡¡¢·½ÏòµÈÐÅÏ¢£¬propÒÀÀµÓÚÁ½¸ö¶ÔÏó£¬Ò»¸öÊÇMapper£¬ÁíÒ»¸öÊÇProperty¡£Mapper¸ºÔð½«Êý¾Ý×ª»»Îª¿ÉÒÔäÖÈ¾µÄ¸ñÊ½£¬´æ·ÅÊý¾ÝºÍäÖÈ¾ÐÅÏ¢£¬Property¸ºÔðÈ·¶¨äÖÈ¾³¡¾°ÖÐµÄÑÕÉ«¡¢²ÄÖÊ¡¢¹âÕÕµÈÐÅÏ¢¡£MapperÊÇ¿ÉÊÓ»¯¹ÜÏßµÄÄ©¶Ë¡£
 
-## 2.2 ä¸‰ç»´åœºæ™¯çš„åŸºæœ¬è¦ç´ 
-### 2.2.1 ç¯å…‰
-VTKä¸­ä½¿ç”¨ç±»vtkLightæ¥è¡¨ç¤ºæ¸²æŸ“åœºæ™¯ä¸­çš„å…‰æºï¼Œå¯ä»¥ä½¿ç”¨vtkLightæ¥è®¾ç½®å…‰æºçš„å±žæ€§ï¼ŒvtkLightå®žä¾‹å¯ä»¥æ‰“å¼€ã€å…³é—­ï¼Œè®¾ç½®ç¯å…‰çš„é¢œè‰²ã€ç…§å°„ä½ç½®ï¼ˆç„¦ç‚¹ï¼‰ã€ç¯å…‰æ‰€åœ¨çš„ä½ç½®ï¼Œå¼ºåº¦ç­‰ã€‚
+## 2.2 ÈýÎ¬³¡¾°µÄ»ù±¾ÒªËØ
+### 2.2.1 µÆ¹â
+VTKÖÐÊ¹ÓÃÀàvtkLightÀ´±íÊ¾äÖÈ¾³¡¾°ÖÐµÄ¹âÔ´£¬¿ÉÒÔÊ¹ÓÃvtkLightÀ´ÉèÖÃ¹âÔ´µÄÊôÐÔ£¬vtkLightÊµÀý¿ÉÒÔ´ò¿ª¡¢¹Ø±Õ£¬ÉèÖÃµÆ¹âµÄÑÕÉ«¡¢ÕÕÉäÎ»ÖÃ£¨½¹µã£©¡¢µÆ¹âËùÔÚµÄÎ»ÖÃ£¬Ç¿¶ÈµÈ¡£
 
-vtkLightå¯ä»¥åˆ†æˆä¸¤ç±»ï¼šç‚¹å…‰æºï¼ˆPosition Light ä½ç½®å…‰æº/èšå…‰ç¯ï¼‰å’Œå¹³è¡Œå…‰æºï¼ˆDirection Light æ–¹å‘å…‰æºï¼‰ã€‚ç‚¹å…‰æºæ˜¯å‘å„ä¸ªæ–¹å‘å‡åŒ€å‘å°„å…‰çº¿ï¼Œå¯ä»¥æŒ‡å®šç¯å…‰çš„è¡°å‡å€¼ã€é”¥è§’ç­‰ï¼Œè€Œå¹³è¡Œå…‰æºæ˜¯æŒ‡å…‰æºåœ¨æ— ç©·è¿œå¤„ï¼Œå› æ­¤å°†å…‰çº¿è§†ä¸ºå¹³è¡Œã€‚
+vtkLight¿ÉÒÔ·Ö³ÉÁ½Àà£ºµã¹âÔ´£¨Position Light Î»ÖÃ¹âÔ´/¾Û¹âµÆ£©ºÍÆ½ÐÐ¹âÔ´£¨Direction Light ·½Ïò¹âÔ´£©¡£µã¹âÔ´ÊÇÏò¸÷¸ö·½Ïò¾ùÔÈ·¢Éä¹âÏß£¬¿ÉÒÔÖ¸¶¨µÆ¹âµÄË¥¼õÖµ¡¢×¶½ÇµÈ£¬¶øÆ½ÐÐ¹âÔ´ÊÇÖ¸¹âÔ´ÔÚÎÞÇîÔ¶´¦£¬Òò´Ë½«¹âÏßÊÓÎªÆ½ÐÐ¡£
 
-å…‰æºçš„ä½ç½®å’Œç„¦ç‚¹çš„è¿žçº¿å®šä¹‰å…‰çº¿çš„æ–¹å‘ï¼Œé»˜è®¤vtkLightä¸ºå¹³è¡Œå…‰æºã€‚
-å¸¸ç”¨çš„æ–¹æ³•æœ‰:
+¹âÔ´µÄÎ»ÖÃºÍ½¹µãµÄÁ¬Ïß¶¨Òå¹âÏßµÄ·½Ïò£¬Ä¬ÈÏvtkLightÎªÆ½ÐÐ¹âÔ´¡£
+³£ÓÃµÄ·½·¨ÓÐ:
 ```c++
-void SetColor(double r, double g, double b); //è®¾ç½®å…‰æºçš„é¢œè‰²
-void SetPosition(double x, double y, double z); //è®¾ç½®å…‰æºçš„ä½ç½®
-void SetFocalPoint(double x, double y, double z); //è®¾ç½®å…‰æºçš„ç„¦ç‚¹
-void SetIntensity(double intensity); //è®¾ç½®å…‰æºçš„å¼ºåº¦
-void SetConeAngle(double angle); //è®¾ç½®å…‰æºçš„é”¥è§’
-void SetAttenuation(double constant, double linear, double quadratic); //è®¾ç½®å…‰æºçš„è¡°å‡å€¼
-void SetLightTypeToPositional(); //è®¾ç½®å…‰æºä¸ºç‚¹å…‰æº
-void SetLightTypeToDirectional(); //è®¾ç½®å…‰æºä¸ºå¹³è¡Œå…‰æº
+void SetColor(double r, double g, double b); //ÉèÖÃ¹âÔ´µÄÑÕÉ«
+void SetPosition(double x, double y, double z); //ÉèÖÃ¹âÔ´µÄÎ»ÖÃ
+void SetFocalPoint(double x, double y, double z); //ÉèÖÃ¹âÔ´µÄ½¹µã
+void SetIntensity(double intensity); //ÉèÖÃ¹âÔ´µÄÇ¿¶È
+void SetConeAngle(double angle); //ÉèÖÃ¹âÔ´µÄ×¶½Ç
+void SetAttenuation(double constant, double linear, double quadratic); //ÉèÖÃ¹âÔ´µÄË¥¼õÖµ
+void SetLightTypeToPositional(); //ÉèÖÃ¹âÔ´Îªµã¹âÔ´
+void SetLightTypeToDirectional(); //ÉèÖÃ¹âÔ´ÎªÆ½ÐÐ¹âÔ´
 ```
-ç¤ºä¾‹è§:[ch02_2_RenderCylinder_light.cpp](ch02_2_RenderCylinder_light.cpp)
+Ê¾Àý¼û:[ch02_2_RenderCylinder_light.cpp](ch02_2_RenderCylinder_light.cpp)
 
-è¯¥ç¤ºä¾‹å®šä¹‰äº†é“¾å“¥å“¥vtkLightå¯¹è±¡ï¼Œä¸€ä¸ªä¸ºç»¿è‰²å…‰ï¼Œä½ç½®åœ¨(0,0,1)ï¼Œä¸€ä¸ªä¸ºè“è‰²å…‰ï¼Œä½ç½®åœ¨(0,0,1-1)ç„¦ç‚¹éƒ½å¯¹è¿™ç›¸æœºçš„ç„¦ç‚¹ã€‚æœ€åŽç”¨vtkRendererå°†ç¯å…‰å¯¹è±¡åŠ è½½è¿›æ¸²æŸ“åœºæ™¯ä¸­ã€‚ä¸€ä¸ªvtkRendererå¯ä»¥æœ‰å¤šä¸ªç¯å…‰ï¼Œå› æ­¤ä½¿ç”¨çš„æ˜¯vtkRenderer::AddLight()æ–¹æ³•ã€‚
+¸ÃÊ¾Àý¶¨ÒåÁËÁ´¸ç¸çvtkLight¶ÔÏó£¬Ò»¸öÎªÂÌÉ«¹â£¬Î»ÖÃÔÚ(0,0,1)£¬Ò»¸öÎªÀ¶É«¹â£¬Î»ÖÃÔÚ(0,0,1-1)½¹µã¶¼¶ÔÕâÏà»úµÄ½¹µã¡£×îºóÓÃvtkRenderer½«µÆ¹â¶ÔÏó¼ÓÔØ½øäÖÈ¾³¡¾°ÖÐ¡£Ò»¸övtkRenderer¿ÉÒÔÓÐ¶à¸öµÆ¹â£¬Òò´ËÊ¹ÓÃµÄÊÇvtkRenderer::AddLight()·½·¨¡£
 
-### 2.2.2 ç›¸æœº
+### 2.2.2 Ïà»ú
 
 
-### 2.2.3 é¢œè‰²
-### 2.2.4 çº¹ç†æ˜ å°„
+### 2.2.3 ÑÕÉ«
+### 2.2.4 ÎÆÀíÓ³Éä
+
+
+## 2.3 ×ø±êÏµÍ³¼°¿Õ¼ä±ä»»
+ÔÚÍ¼ÐÎÑ§ÖÐ£¬×ø±êÏµÍ³Ö÷ÒªÓÐ£ºModel×ø±êÏµÍ³¡¢World×ø±êÏµÍ³¡¢View×ø±êÏµÍ³¡¢Display×ø±êÏµÍ³¡£
+Á½ÖÖ±íÊ¾×ù±êµãµÄ·½Ê½£ºÒÔÆÁÄ»ÏñËØÖµÎªµ¥Î»ºÍ¹éÒ»»¯×ø±êÖµ£¨È¡Öµ·¶Î§[-1, 1]£©£»
+
+- Model×ø±êÏµÍ³ÊÇ¶¨ÒåÄ£ÐÍÊ±µÄ×ø±êÏµÍ³£¬Îª¾Ö²¿µÄµÑ¿¨¶ù×ø±êÏµ£»
+- World×ø±êÏµÍ³ÊÇ·ÅÖÃActorµÄÈýÎ¬¿Õ¼ä×ø±êÏµ£¬vtkActorÀà¸ºÔð½«Model×ø±êÏµÍ³±ä»»µ½World×ø±êÏµÍ³¡£World×ø±êÏµÍ³Ö»ÓÐÒ»¸ö£¬Ò²ÊÇÏà»úºÍµÆ¹âËùÔÚµÄ×ø±êÏµÍ³£»
+- View×ø±êÏµÍ³ÊÇÏà»úËù¿´µ½µÄ×ø±êÏµÍ³£¬XYZÖáµÄÈ¡Öµ·¶Î§Îª[-1,1]¡£Ïà»úÀà¸ºÔð½«World×ø±êÏµÍ³±ä»»µ½view×ø±êÏµÍ³£»
+- Display×ø±êÏµÍ³ÓëView×ø±êÏµÍ³ÏàËÆ£¬µ«È¡Öµ·¶Î§²»ÊÇ[-1,1]£¬¶øÊÇÆÁÄ»/´°¿ÚµÄÏñËØÖµ£»
+
+ÒÔÉÏ¼¸ÖÖ×ø±êÏµÍ³Ö®¼äµÄ±ä»»ÓÉVTK×Ô¶¯Íê³É£¬ÓÉÀàvtkCoordinateÍê³É¡£
+
+### 2.3.2¿Õ¼ä±ä»»
+**´ý²¹³ä**
+
+## 2.4 VTK¹ÜÏß
+äÖÈ¾ÒýÇæÖ÷Òª¸ºÔðÊý¾ÝµÄ¿ÉÊÓ»¯±í´ï£¬ÈçÇ°ÃæÓÃµ½µÄvtkCamera¡¢vtkLight¡¢vtkPropµÈ¡£»¹ÓÐÒ»¸öÖØÒª¸ÅÄî¾ÍÊÇ¿ÉÊÓ»¯¹ÜÏß£¬ÊÇÖ¸ÓÃÓÚ»ñÈ¡»ò´´½¨Êý¾Ý¡¢´¦ÀíÊý¾ÝÒÔ¼°°ÑÊý¾ÝÐ´ÈëÎÄ¼þ»ò°ÑÊý¾Ý´«µÝ¸øäÖÈ¾ÒýÇæ½øÐÐÏÔÊ¾¡£
+¿ÉÊÓ»¯¹ÜÏßµÄÈý¸ö»ù±¾ÒªËØÎª£º
+- **Êý¾Ý¶ÔÏó Data Object**
+- **´¦Àí¶ÔÏó Process Object**
+- **Êý¾ÝÁ÷·½Ïò Direction of Data Flow**
+
+VTK¹ÜÏßÖÐÊý¾ÝÁ÷·½ÏòÎª´ÓÊý¾Ý¶ÔÏóµ½äÖÈ¾¶ÔÏó£¬Êý¾Ý¶ÔÏóÍ¨¹ý´¦Àí¶ÔÏó½øÐÐ±ä»»£¬´¦Àí¶ÔÏó°üÀ¨vtkMapper¡¢vtkRendererµÈ£¬´¦Àí¶ÔÏó½«Êý¾Ý¶ÔÏó×ª»»ÎªäÖÈ¾¶ÔÏó£¬äÖÈ¾¶ÔÏóÍ¨¹ýäÖÈ¾Æ÷½øÐÐäÖÈ¾¡£
+
+![Àý×Ó2_1µÄ¿ÉÊÓ»¯¹ÜÏß](image/2_1äÖÈ¾¹ÜÏß.png)
+
+
 
     
+
+# 3¡¢VTK»ù±¾Êý¾Ý½á¹¹
+Èô½«VTK¿ÉÊÓ»¯¹ÜÏßÊÓ×÷Ò»¸ö¹¤³§£¬ÄÇÃ´VTKµÄÊý¾Ý½á¹¹¾ÍÊÇÉú²ú±Ø±¸µÄÔ­²ÄÁÏ¡£VTK¾ßÓÐ·á¸»µÄÊý¾Ý½á¹¹¡£
+## 3.1 ¿ÉÊÓ»¯Êý¾ÝµÄ»ù±¾ÌØµã
+¿ÉÊÓ»¯Êý¾Ý¾ßÓÐÒÔÏÂ¼¸¸öÌØµã£º
+- ÀëÉ¢ÐÔ£º¶ÔÎÞÏÞµÄ¡¢Á¬ÐøµÄ¿Õ¼ä½øÐÐ²ÉÑù£¬Éú³ÉÓÐÏÞµÄ²ÉÑùÊý¾Ýµã£¬ÕâÐ©Êý¾ÝÒÔÀëÉ¢µãµÄÐÎÊ½´æ´¢¡£ÓÉÓÚµãÓëµãÖ®¼äµÄÖµÊÇ²»¿ÉÖªµÄ£¬ËùÒÔÐèÒªÍ¨¹ý²åÖµµÄ·½Ê½»ñÈ¡£¬ÈçÏßÐÔ²åÖµ¡¢·ÇÏßÐÔ²åÖµµÄ·½·¨¡£
+- Êý¾Ý¾ßÓÐ¹æÔò»ò²»¹æÔòµÄ½á¹¹£¨½á¹¹»¯Óë·Ç½á¹¹»¯£©£¬¹æÔòµÄÊý¾ÝµãÖ®¼ä¾ßÓÐ¹Ì¶¨µÄ¹ØÁª¹ØÏµ£¬²»±Ø´æ´¢ËùÓÐµÄÊý¾Ýµã£¬Ö»ÐèÒª´æ´¢ÆðÊ¼µã¡¢ÏàÁÚµãÒÔ¼°×ÜµãÊý¼´¿É±£´æÍêÕûµÄÊý¾ÝÐÅÏ¢¡£²»¹æÔò½á¹¹µÄÊý¾ÝÃ»ÓÐ¹Ì¶¨µÄ¹ØÁª¹ØÏµ£¬ÔÚÊý¾Ý±í´ïÊ±¸ü×ÔÓÉ¡£
+- Êý¾Ý¾ßÓÐÎ¬¶È£º¿ÉÊÓ»¯Êý¾ÝÊÇ¾ßÓÐÍØÆËÎ¬¶ÈµÄ£¬ÁãÎ¬Îªµã£¬ÈýÎ¬ÎªÌåµÈ£¬Êý¾ÝµÄÎ¬¶È¾ö¶¨ÁËÊý¾Ý¿ÉÊÓ»¯µÄ·½·¨¡£
+## 3.2 Êý¾Ý¶ÔÏóºÍÊý¾Ý¼¯
+### 3.2.1 VTKDataObject
+ÔÚVTKÖÐ£¬Êý¾ÝÒ»°ãÒÔÊý¾Ý¶ÔÏó£¨Data Object, ÀàvtkDataObject£©ÐÎÊ½±íÏÖ¡£
+![vtkDataObject](image/3_1_vtkDataObject.png)
+### 3.2 vtkDataSet
+½«Êý¾Ý¶ÔÏó×éÖ¯³ÉÒ»ÖÖ½á¹¹²¢¸³ÓèÏàÓ¦µÄÊôÐÔÖµ£¬¾ÍÐÎ³ÉÁËÊý¾Ý¼¯£¨DataSet£¬ÀàvtkDataSet£©¡£vtkDataSetÓÉÁ½²¿·Ö×é³É£º×éÖ¯½á¹¹(Organizing Structure)ºÍÓë×éÖ¯½á¹¹Ïà¹ØÁªµÄÊôÐÔÊý¾Ý(Attributes Data)¡£
+vtkDataSetµÄ×éÖ¯½á¹¹ÓÉÍØÆË½á¹¹£¨Topology£©¡¢¼¸ºÎ½á¹¹(Geometry)Á½²¿·Ö×é³É£¬ÍØÆË½á¹¹ÃèÊöÁË¶ÔÏóµÄ¹¹³ÉÐÎÊ½£¬¼¸ºÎ½á¹¹ÃèÊö¶ÔÏóµÄ¿Õ¼äÎ»ÖÃ¡£¼´µãÊý¾Ý¶¨ÒåµÄ×ø±êµã¹¹³ÉÁËÊý¾Ý¼¯µÄ¼¸ºÎ½á¹¹£¬µãÊý¾ÝµÄÁ¬½ÓÐÎ³Éµ¥ÔªÊý¾Ý£¬ÓÉµ¥ÔªÊý¾ÝÐÎ³ÉÁËÊý¾Ý¼¯ºÏµÄÍØÆË½á¹¹¡£
+
+![vtkDataObSetµÄ½á¹¹×é³É](3_2vtkDataSet½á¹¹×é³É.png)
+## 3.3 µ¥ÔªÀàÐÍ
+Êý¾Ý¼¯ÓÉÒ»¸ö»ò¶à¸öµ¥Ôª×é³É£¬µ¥ÔªÊÇÊý¾Ý¼¯µÄ»ù±¾×é³Éµ¥Ôª£¬µ¥ÔªÀàÐÍ¾ö¶¨ÁËµ¥ÔªµÄÐÎ×´ºÍÍØÆË½á¹¹¡£VTKÖÐ³£ÓÃµÄµ¥ÔªÀàÐÍÓÐ£º
+- Ïß¶Îµ¥Ôª(vtkLine)
+- Èý½ÇÐÎµ¥Ôª(vtkTriangle)
+- ËÄ±ßÐÎµ¥Ôª(vtkQuad)
+- ¶à±ßÐÎµ¥Ôª(vtkPolygon)
+- Á¢·½Ìåµ¥Ôª(vtkCube)
+- ÇòÌåµ¥Ôª(vtkSphere)
+- Ô²Öùµ¥Ôª(vtkCylinder)
+- Ô²×¶µ¥Ôª(vtkCone)
+- ¶àÃæÌåµ¥Ôª(vtkPolyhedron)
+
+### 3.3.1 ÏßÐÔµ¥Ôª
+vtkÖÐµÄµ¥ÔªµÄÀàÐÍ¶¨ÒåÔÚvtkCellType.hÎÄ¼þÖÐ£¬vtkCellTypeÀà¶¨ÒåÁËµ¥ÔªÀàÐÍ£¬vtkCellTypeµÄÏßÐÔµ¥ÔªÀàÐÍÈçÏÂ£º
+
+- VTK_VERTEX ¶¥µã
+- VTK_POLY_VERTEX ¶à±ßÐÎ¶¥µã
+- VTK_LINE Ïß¶Î
+- VTK_POLY_LINE ¶à±ßÐÎÏß¶Î/ÕÛÏß
+- VTK_TRIANGLE Èý½ÇÐÎ£¬µãµÄÁ¬½Ó·½ÏòºÍ±íÃæ·¨ÏòÁ¿·ûºÏÓÒÊÖ·¨Ôò£¨ÓÒÊÖ´óÄ´Ö¸ÍâµÄÊÖÖ¸ÑØ×ÅµãµÄ·½ÏòÍäÇú£¬´óÄ´Ö¸Ö¸ÏòµÄ·½Ïò¾ÍÊÇ±íÃæ·¨ÏòÁ¿£©
+- VTK_TRIANGLE_STRIP Èý½ÇÐÎÌõ´ø£¬ÓÉÒ»¸ö»ò¶à¸öÏß¶Î×éºÏ¶ø³É¡£¶øÎªÀàÐÍ£¬ÓÉn+2¸öÓÐÐòµãÁ¬½Ó¶ø³É¡£¶¨ÒåÈý½ÇÐÎÌõ´øµÄµã²»ÐèÒª¹²Ãæ£¬¶¥µãË³ÐòÎª£º(i, i+1, i+2),0 <= i <= n.
+- VTK_POLYGON ¶à±ßÐÎ£¬
+- VTK_PIXEL ÏñËØ
+- VTK_QUAD ËÄ±ßÐÎ
+- VTK_TETRA ËÄÃæÌå
+- VTK_VOXEL ÌåËØ£¬ÈýÎ¬µÄ»ù±¾ÀíÐÔ£¬ÒªÇóÏàÁÚµÄÁ½¸öÃæ±ØÐë´¹Ö±
+- VTK_HEXAHEDRON ÁùÃæÌå
+- VTK_WEDGE Èý½Ç×¶
+- VTK_PYRAMID ËÄÃæÌå
+- VTK_POLYHEDRON ¶àÃæÌå
+
+### 3.3.2 ·ÇÏßÐÔµ¥Ôª
+vtkÖÐ·ÇÏßÐÔµ¥ÔªÒ²ÊÇ¶¨ÒåÔÚvtkCellType.hÎÄ¼þÖÐ£¬vtkCellTypeµÄ·ÇÏßÐÔµ¥ÔªÀàÐÍÈçÏÂ£º
+
+- VTK_QUADRATIC_EDGE£º¶þ´ÎÇúÏß£¬Ò»Î¬µÄ»ù±¾ÀàÐÍ£¬ÓÉÈý¸öµã¶¨Òå£»
+- VTK_QUADRATIC_TRIANGLE£º¶þ´ÎÈý½ÇÐÎ£¬¶þÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉÁù¸öµã¶¨Òå£»
+- VTK_QUADRATIC_QUAD£º¶þ´ÎËÄ±ßÐÎ£¬¶þÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉ°Ë¸öµã¶¨Òå£»
+- VTK_QUADRATIC_TETRA£º¶þ´ÎËÄÃæÌå£¬ÈýÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉÊ®¸öµã¶¨Òå£»
+- VTK_QUADRATIC_PYRAMID£º¶þ´ÎËÄÃæÌå/½Ç×¶Ìå£¬ÈýÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉÊ®Èýµã¶¨Òå£»
+- VTK_QUADRATIC_HEXAHEDRON£º¶þ´ÎÁùÃæÌå£¬ÈýÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉ¶þÊ®¸öµã¶¨Òå£»
+- VTK_QUADRATIC_POLYGON£º¶þ´Î¶à±ßÐÎ£¬¶þÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉn+3¸öµã¶¨Òå£»
+- VTK_QUADRATIC_WEDGE£º¶þ´ÎÈý½Ç×¶£¬ÈýÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉÊ®Îå¸öµã¶¨Òå£»
+- VTK_QUADRATIC_EDGE£º¶þ´Î¶àÃæÌå£¬ÈýÎ¬µÄ»ù±¾ÀàÐÍ£¬ÓÉn+6¸öµã¶¨Òå£»
+...
+
+## 3.4 Êý¾ÝÊôÐÔ
+ÊôÐÔÊý¾Ý(Attribute Data)ÊÇÓëÊý¾Ý¼¯Ïà¹ØÁªµÄÊý¾Ý£¬ÃèÊöÁËÊý¾Ý¼¯µÄ¼¸ºÎ½á¹¹¡¢ÍØÆË½á¹¹ÒÔ¼°Êý¾Ý¼¯µÄÆäËüÐÅÏ¢¡£ÊôÐÔÊý¾ÝÖ÷ÒªÓÃÓÚÃèÊöÊý¾Ý¼¯µÄÊôÐÔÌØÕ÷£¬¶ÔÊý¾Ý¼¯µÄ¿ÉÊÓ»¯ÊµÖÊÉÏ¾ÍÊÇ¶ÔÊôÐÔÊý¾ÝµÄ¿ÉÊÓ»¯¡£
+¸ù¾ÝÊý¾ÝµÄÐÔÖÊ£¬ÊôÐÔÊý¾Ý¿ÉÒÔ·ÖÎª±êÁ¿Êý¾Ý¡¢ÏòÁ¿Êý¾Ý¡¢ÕÅÁ¿Êý¾Ý¡¢ÎÆÀíÊý¾ÝµÈ¡£ÔÚVTKÖÐ£¬ÓÃvtkPointDataÀàºÍvtkCellDataÀàÀ´ÃèÊöÊý¾Ý¼¯µÄÊôÐÔÊý¾Ý£¬ËüÃÇÊÇÀàvtkDaraSetAttributesµÄ×ÓÀà¡£
+**±êÁ¿Êý¾Ý**£º±êÁ¿Êý¾ÝÊÇµ¥ÖµÊý¾Ý£¬ÈçÎÂ¶È¡¢ÃÜ¶ÈµÈ£¬ÓÃvtkDataArrayÀàÀ´ÃèÊö¡£vtkDataArrayÀàÊÇVTKÖÐËùÓÐÊý¾ÝÊý×éµÄ»ùÀà£¬°üÀ¨Ò»Î¬¡¢¶þÎ¬¡¢ÈýÎ¬µÈÊý×é£¬ÒÔ¼°±êÁ¿¡¢ÏòÁ¿¡¢ÕÅÁ¿µÈÊý¾ÝÀàÐÍ¡£
+**ÏòÁ¿Êý¾Ý**£ºÏòÁ¿Êý¾ÝÊÇ¾ßÓÐ·½ÏòµÄÊý¾Ý£¬ÈçËÙ¶È¡¢Á¦µÈ£¬ÓÃvtkDataArrayÀàÀ´ÃèÊö¡£
+**ÕÅÁ¿Êý¾Ý**£ºÕÅÁ¿Êý¾ÝÊÇ¾ßÓÐ·½ÏòºÍ´óÐ¡Êý¾Ý£¬ÈçÓ¦Á¦¡¢Ó¦±äµÈ£¬ÓÃvtkDataArrayÀàÀ´ÃèÊö¡£
+
+
+## 3.5 Êý¾Ý¼¯ÀàÐÍ
+VTKÖÐÊý¾Ý¼¯ÊÇÓÉ×éÖ¯½á¹¹ºÍÓëÖ®¹ØÁªµÄÊôÐÔÊý¾Ý×é³É£¬×éÖ¯½á¹¹°üÀ¨ÍØÆË½á¹¹¡¢¼¸ºÎ½á¹¹£¬ÊôÐÔÊý¾Ý°üÀ¨±êÁ¿Êý¾Ý¡¢ÏòÁ¿Êý¾Ý¡¢ÕÅÁ¿Êý¾ÝµÈ¡£VTKÖÐ³£ÓÃµÄÊý¾Ý¼¯ÀàÐÍÓÐ£º
+
+![alt text](image/3-11VTKdataSet.png)
+
+
+- vtkImageData:°´¹æÔòÅÅÁÐÔÚ¾ØÐÎ·½¸ñÖÐµÄµã»òµ¥ÔªµÄ¼¯ºÏ£¬Èç£¨a£©ËùÊ¾¡£ÅÅÁÐÔÚ¶þÎ¬Æ½Ãæ³ÆÎªÏñËØÓ³Éä¡¢Î»Í¼¡¢Í¼ÏñµÈ£¬ÅÅÁÐÔÚÈýÎ¬¿Õ¼ä³ÆÎªÌå»ýÊý¾Ý¡¢ÌåËØ¡¢ÈýÎ¬Í¼ÏñµÈ¡£ÓÉÓÚÆä¼¸ºÎ½á¹¹ºÍÍØÆË½á¹¹¶¼ÊÇ¹æÔòµÄ£¬ËùÒÔÃ¿¸öµãµÄÎ»ÖÃ¿ÉÒþÊ½±í´ï¡£ÔÚÍ¼Ïñ´¦Àí¡¢¼ÆËã»úÍ¼ÐÎÑ§µÈ¹ã·ºÓ¦ÓÃ£¬Ò½Ñ§Í¼ÏñÔò¸ü¶àÊ¹ÓÃÌåÊý¾Ý£¬ÈçCT¡¢MRIµÈ¡£
+
+- vtkPolyData:ÓÉ¶¥µã(vertex)¡¢¶à¶¥µã(polyVertex)¡¢Ïß(line)¡¢Èý½ÇÐÎÌõ´ø(Triangle Strip)µÈµ¥Ôª×é³ÉµÄ¼¯ºÏ¡£Èç£¨e£©ËùÊ¾¡£
+
+- vtkRectilinearGrid:ÓÉ¹æÔòÅÅÁÐµÄµãºÍµ¥Ôª×é³ÉµÄ¼¯ºÏ£¬Èç£¨b£©ËùÊ¾¡£ÍØÆË½á¹¹ÊÇ¹æÔòµÄ£¬µ«Æä¼¸ºÎ½á¹¹ÊÇ²¿·Ö¹æÔòµÄ¡£
+
+- vtkStructuredGrid£ºÊÇ½á¹¹»¯ÍøÂçÊý¾Ý£¬¾ßÓÐ¹æÔòµÄÍØÆË½á¹¹ºÍ²»¹æÔòµÄ¼¸ºÎ½á¹¹£¬µ¥ÔªÃ»ÓÐÖØµþ»ò½»²æ£¬Í¨³£ÓÃÓÚÓÐÏÞÔª·ÖÎö¡£
+
+- vtkUnstructuredGrid:ÊÇ·Ç½á¹¹»¯ÍøÂçÊý¾Ý£¬¾ßÓÐ·Ç½á¹¹µÄÍØÆË½á¹¹ºÍ²»¼¸ºÎ½á¹¹£¬ËùÓÐµ¥Ôª¶¼¿ÉÒÔ´ÓÁãÎ¬ÑÓÉìÖÁÈýÎ¬£¬¼ÆËãÊ±ÐèÒªºÄ·Ñ´óÁ¿×ÊÔ´£¬Í¨³£ÓÃÓÚÓÐÏÞÔª·ÖÎö¡£
+
+- vtkUnstructuredPoint:²»¹æÔòµØ·Ö²¼ÔÚ¿Õ¼äµÄµã¼¯¡£
+
+## 3.6 Êý¾ÝµÄ´æ´¢ºÍ±í´ï
+### 3.6.1 vtkDataArray
+VTKÖÐµÄÄÚ´æ·ÖÅä²ÉÓÃÁ¬ÐøÄÚ´æ£¬¿ÉÒÔ¿ìËÙµØ´´½¨¡¢É¾³ýºÍ±éÀú£¬³ÆÖ®ÎªÊý¾ÝÊý×é£¬ÓÃÀàvtkDataArrayÊµÏÖ¡£Êý×éµÄ·ÃÎÊÊÇ»ùÓÚË÷ÒýµÄ£¬ÓëC++Ò»Ñù£¬´Ó0¿ªÊ¼¼ÆÊý¡£¶ÔÓÚÓÉ¶à¸öÊý¾Ý·ÖÁ¿×é³ÉµÄÊý¾Ý£¬ÈçRGB£¬¿ÉÒÔÊ¹ÓÃÔª×é(tuple)À´±íÊ¾£¬Ôª×éÊÇÊý¾ÝÊý×éµÄ×ÓÊý×é¡£
+
+vtkDataArray¼°Æä×ÓÀàÊÇ½¨Á¢VTKÊý¾Ý¶ÔÏóµÄ»ù´¡£¬ÒÔvtkpolyDataÎªÀý£¬¸ÃÀàÓÉ¼¸ºÎÊý¾Ý(vtkPoints)¡¢ÍØÆËÊý¾Ý(vtkCellArray)ºÍÊôÐÔÊý¾Ý(vtkPointData¡¢vtkCellDataºÍ vtkFieldData)×é³É£¬ÕâÐ©Êý¾ÝÍ¨¹ýÊý×é(vtkDataArray¼°Æä×ÓÀà)À´´æ´¢ºÍ±í´ï¡£
+![alt text](image/3-14Êý¾ÝÊý×é¶ÔÏó.png)
+
+### 3.6.2 Êý¾Ý¶ÔÏóµÄ±í´ï
+VTKÀïµÄÊý¾Ý¶ÔÏóÊÇ×÷ÎªvtkDataArrayµÄÊý×éÊµÏÖµÄ£¬vtkDataObjectÊÇÒ»ÖÖÍ¨ÓÃµÄ¿ÉÊÓ»¯Êý¾Ý±í´ï£¬¿ÉÊÓ»¯Ëã·¨»ù±¾Ã»ÓÐÖ±½Ó´¦ÀívtkDataObjectÀàÐÍµÄÊý¾Ý¡£vtkDataObjectÄÚ²¿·â×°ÁË¿ÉÊÓ»¯¹ÜÏßµÄÖ´ÐÐÏà¹ØµÄ±äÁ¿ºÍ·½·¨£¬°üÀ¨±í´ïÊý¾Ý¡£vtkDataObjectÄÚ²¿ÓÐÒ»¸övtkFieldData(³¡Êý¾Ý)µÄÊµÀý£¬¸ºÔð¶ÔÊý¾ÝµÄ±í´ï¡£³¡Êý¾Ý¿ÉÒÔ¿´×÷Êý¾ÝÊý×éµÄÊý×é£¬Êý×éÀïµÄÃ¿Ò»¸öÔªËØ¶¼ÊÇÒ»¸öÊý×é£¬Êý×éµÄÀàÐÍ¡¢³¤¶È¡¢Ôª×éµÄ´óÐ¡¡¢Ãû³Æ¶¼¿ÉÒÔ¸÷²»ÏàÍ¬¡£
+
+![alt text](image/3-17Êý¾Ý¶ÔÏó.png)
+
+# ËÄ¡¢VTKÊý¾ÝµÄ¶ÁÐ´
