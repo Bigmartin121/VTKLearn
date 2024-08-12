@@ -253,3 +253,13 @@ vtk中，要将外部数据读入可视化管线，主要的步骤是：
 
 
 ### 4.1.2 vtkPolyData类型
+
+
+## 4.2 场景的导入与导出
+场景的导入与导出是指将渲染场景中的对象，包括光照、相机、Actor、属性、变换矩阵等信息写入文件中，或从外部文件中将这些对象导入渲染场景中，从而实现渲染场景的保存和加载。一般导入的文件含有多个数据集。
+
+Import类可以生成vtkRenderWindow、vtkRenderer、vtkCamera等实例，用户也可以另外指定对象。Import类包括：vtk3DImporter、vtkVRMLImporter等。
+
+Export类可以将渲染场景中的对象导出为文件，Export类包括：vtkRIBExporter、vtkGL2PSExporter、vtkOBJExporter等。
+
+##

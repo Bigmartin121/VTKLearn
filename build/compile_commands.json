@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mp/Mayujie/Learn/VTK/VTK_Background/build",
+  "command": "/usr/bin/g++  -Dkiss_fft_scalar=double -DvtkRenderingContext2D_AUTOINIT_INCLUDE=\\\"/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/vtkModuleAutoInit_04d683062bbc5774e34e8c62b13e1a5a.h\\\" -DvtkRenderingCore_AUTOINIT_INCLUDE=\\\"/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/vtkModuleAutoInit_04d683062bbc5774e34e8c62b13e1a5a.h\\\" -DvtkRenderingOpenGL2_AUTOINIT_INCLUDE=\\\"/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/vtkModuleAutoInit_04d683062bbc5774e34e8c62b13e1a5a.h\\\" -isystem /usr/local/include/vtk-9.2 -isystem /usr/local/include/vtk-9.2/vtkfreetype/include  -g   -o CMakeFiles/VTKDemo.dir/ch05_03_ImageBlend.cpp.o -c /home/mp/Mayujie/Learn/VTK/VTK_Background/ch05_03_ImageBlend.cpp",
+  "file": "/home/mp/Mayujie/Learn/VTK/VTK_Background/ch05_03_ImageBlend.cpp"
+}
+]

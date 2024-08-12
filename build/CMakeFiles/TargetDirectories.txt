@@ -1,0 +1,3 @@
+/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/rebuild_cache.dir
+/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/edit_cache.dir
+/home/mp/Mayujie/Learn/VTK/VTK_Background/build/CMakeFiles/VTKDemo.dir
